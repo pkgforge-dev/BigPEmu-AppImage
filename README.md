@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/BigPEmu-AppImage)](https://github.com/pkgforge-dev/BigPEmu-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://emulation.gametechwiki.com/images/0/09/BigPEmulogo.png" width="128" />
+  <img src="https://raw.githubusercontent.com/Link4Electronics/BigPEmu-AppImage/refs/heads/main/AppDir/bigpemu-icon.png" width="128" />
 </p>
 
 
