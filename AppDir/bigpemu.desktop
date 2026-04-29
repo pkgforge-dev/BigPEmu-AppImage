@@ -5,6 +5,6 @@ GenericName=Atari Jaguar Emulator
 Exec=bigpemu
 Icon=bigpemu-icon
 Terminal=false
-StartupWMClass=
+StartupWMClass=bigpemu
 Categories=Game;Emulator;
 Keywords=bigpemu;atari;jaguar;emulator;
