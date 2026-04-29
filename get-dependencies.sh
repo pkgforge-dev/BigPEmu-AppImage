@@ -26,6 +26,6 @@ case "$ARCH" in # they use AMD64 and ARM64 for the deb links
 esac
 wget https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux${z_arch}_v121.tar.gz
 tar -xvzf BigPEmu_Linux${z_arch}_v121.tar.gz --strip-components=1
-rm -f *.tar.gz make_desktop.sh *.txt 
+rm -f *.tar.gz bigpemu-icon.png make_desktop.sh *.txt 
 mkdir -p ./AppDir/bin
 mv -v Data plugins Scripts Scripts bigpemu ./AppDir/bin
