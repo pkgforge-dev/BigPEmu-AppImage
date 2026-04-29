@@ -1,0 +1,4 @@
+#!/bin/sh
+dir=$HOME/.bigpemu_userdata
+mkdir -p "$dir"
+cd "$dir"
