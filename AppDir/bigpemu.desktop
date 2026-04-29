@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=BigPEmu
+GenericName=Atari Jaguar Emulator
+Exec=bigpemu
+Icon=bigpemu-icon
+Terminal=false
+StartupWMClass=
+Categories=Game;Emulator;
+Keywords=bigpemu;atari;jaguar;emulator;
