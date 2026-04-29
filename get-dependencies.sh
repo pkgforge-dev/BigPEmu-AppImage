@@ -18,11 +18,10 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
-
-# if you also have to make nightly releases check for DEVEL_RELEASE = 1
-#
-# if [ "${DEVEL_RELEASE-}" = 1 ]; then
-# 	nightly build steps
-# else
-# 	regular build steps
-# fi
+echo "Getting app..."
+echo "---------------------------------------------------------------"
+case "$ARCH" in # they use AMD64 and ARM64 for the deb links
+	x86_64)  z_arch=64;;
+	aarch64) z_arch=ARM64;;
+esac
+wget https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux${z_arch}_v121.tar.gz
