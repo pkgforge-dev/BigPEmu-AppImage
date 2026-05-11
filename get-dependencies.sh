@@ -25,7 +25,7 @@ case "$ARCH" in # they use 64 and ARM64 for tar.gz links
 	aarch64) z_arch=ARM64;;
 esac
 wget https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux${z_arch}_v1221.tar.gz
-tar -xvzf BigPEmu_Linux${z_arch}_v1221.tar.gz --strip-components=1
+tar -xvzf BigPEmu_Linux${z_arch}*.tar.gz --strip-components=1
 rm -f ./*.tar.gz bigpemu-icon.png make_desktop.sh *.txt 
 mkdir -p ./AppDir/bin
 mv -v Data plugins Scripts Strings bigpemu ./AppDir/bin
