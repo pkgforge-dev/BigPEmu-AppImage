@@ -20,7 +20,7 @@ get-debloated-pkgs --add-common --prefer-nano
 # If the application needs to be manually built that has to be done down here
 echo "Getting app..."
 echo "---------------------------------------------------------------"
-case "$ARCH" in # they use AMD64 and ARM64 for the deb links
+case "$ARCH" in # they use 64 and ARM64 for tar.gz links
 	x86_64)  z_arch=64;;
 	aarch64) z_arch=ARM64;;
 esac
